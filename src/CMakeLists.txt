@@ -12,7 +12,6 @@ externalproject_add(quickfix
 )
 set(QUICKFIX_INC ${CMAKE_CURRENT_SOURCE_DIR}/../thirdparty/quickfix/include)
 set(SOURCES main.cpp
-            message_cracker.cpp
             application.cpp
 )
 include_directories(
